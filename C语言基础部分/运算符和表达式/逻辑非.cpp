@@ -3,9 +3,8 @@
 using namespace std;
 
 int main(){
-	int a, b;
-	b = 3 * 5;
-	a = (b, b * 4);
-	cout << a;
+	int i, j = 1;
+	i = !!j;
+	cout << i;
 	return 0;
 }
