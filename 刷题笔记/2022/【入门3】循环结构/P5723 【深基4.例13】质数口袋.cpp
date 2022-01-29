@@ -39,7 +39,7 @@ int isPrime(int n){
 
 int main(){
 	int n;
-	int ans = 0, count = 1;
+	long long ans = 0, count = 1;
 	cin >> n;
 
 	if(n < 2){
