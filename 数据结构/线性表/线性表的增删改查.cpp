@@ -51,6 +51,13 @@ int Length(SqList L){
 	return L.length;
 }
 
+int LocateElem(SqList L, int e){			//按值查找
+	for(int i = 0; i < L.length; i++){
+		if(L.data[i] == e) return i + 1;
+	}
+	return 0;
+}
+
 int main(){
 	SqList L;
 	int e = -1, n, num;
